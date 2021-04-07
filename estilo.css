@@ -1,0 +1,209 @@
+body,html{
+	margin:0;
+	padding:0;
+	font:1em monospace;
+	height:100%;
+	width:100%;
+}
+
+/* INICIO DO TOPO */
+ul#menu-topo{
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:linear-gradient(to bottom, grey, #BEC7C7);;
+	width:100%;
+	float:left;
+	height:70px;
+}
+ul#menu-topo li{
+	float:left;
+	font-size:2.0em;
+	font-family:"Avestrava";
+	line-height:70px;
+	padding:0px 5px;
+}
+ul#menu-topo li a {
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+
+}
+ul#menu-topo li a:hover{
+	background:grey;
+	color:#BEC7C7;
+	border-radius:2px;
+	padding:5px;
+}
+ul#icone-topo li a:hover{
+	padding:0;
+
+}
+ul#menu-topo li#ultimo a{
+	font-family:"Avestrava";
+	font-size:1.5em;
+	color:#121317;
+
+}
+ul#menu-topo li#ultimo a:hover{
+	background:none;
+	padding:0;
+}
+ul#menu-topo li img{
+	float:left;
+	padding-top:5px;
+}
+ul#icone-topo{
+	float:right;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+ul#icone-topo li{
+	float:right;
+	padding:10px 0px;
+}
+
+/* Fim TOPO  */
+
+/* Classes  */
+.ultimo{
+	margin-right:50px;
+}
+
+
+.ultimo1{
+	margin-right:50px;
+}
+
+/* FIM CLASSE  */
+
+/* área do conteúdo */
+.conteudo{
+	font-size:1.5em;
+	padding:50px 100px;
+	
+}
+
+.caixa1,.caixa2,.caixa3,.caixa4{
+	position:relative;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+.caixa1{
+	background-image:url(imagens/imagem1.jpg);
+}
+.caixa2{
+	background-image:url(imagens/imagem2.jpg);
+}
+.caixa3{
+	background-image:url(imagens/imagem3.jpg);
+}
+.caixa4{
+	background-image:url(imagens/imagem4.jpg);
+}
+/* área do conteúdo */
+
+/* área da Galeria */
+div.conteudo img{
+	width:180px;
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	text-align:center;
+}
+div.galeria img{
+	margin:auto;
+	margin-bottom:10px;
+	float:left;
+}
+.galeria{
+	float:left;
+	background:#BEC7C7;
+	width:180px;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+}
+div.galeria a{
+	text-decoration:none;
+	color:black;
+}
+div.galeria a:hover{
+	text-decoration:underline;
+}
+/* área da Galeria */
+
+/* área dos Textos */
+
+h1{
+	text-transform:uppercase;
+	color:grey;
+	text-align:center;
+}
+ 
+p{
+margin-bottom:20px;
+color:#06111C;
+}
+
+.video{
+text-align:center;
+font-size:20px;	
+color:#06111C;
+}
+
+@font-face {
+			font-family:"Avestrava";
+			src: url("font/Avestrava.woff");
+		}
+		
+.conteudo-titulo{
+	position:absolute;
+	color:white;
+	top:45%;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+.conteudo-titulo span.titulo{
+	background:linear-gradient(to bottom, grey, #BEC7C7);
+	padding:20px;
+	font-size:50px;
+	font-family:"Avestrava";
+	border-radius:5px;
+}
+.conteudo-titulo span.titulo a{
+	color:black;
+	text-decoration:none;
+	
+
+}
+/* área do Texto */
+
+/* Clear */
+.limpar{
+	clear:both;
+}
+/* Clear */
+
+/* Rodape */
+#rodape{
+	padding:3px;
+	background:linear-gradient(to bottom, grey, #BEC7C7);
+	text-align:center;
+	font-size:1em;
+}
+/* Rodape */
+
+video{
+	width:400px;
+	margin:0 auto;
+	padding:10px;
+	display: block;
+	background: #BEC7C7;
+	
+}
